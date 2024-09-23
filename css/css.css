@@ -1,34 +1,79 @@
 body{
-    background-color:rgb(199, 186, 168);
+    background-color: rgb(230, 219, 205);
+    margin:0 auto; /*para centrar la pagina en cualuier navegador y resolucion */
 }
-nav{
+nav {
     background-color: antiquewhite;
-    width:85vw;
-    height:10vh;
+    width:80vw; /*se adapta al ancho de la ventana */
+    height:10vh; /*se adapta al alto de la ventana */
     margin:0 auto;
-    border-radius:30px;
+    padding-top:20px; /*deja espacio encima de los botones */
+    padding-left:10%;
+    border-radius:30px; /* redondea los bordes del nav */
 }
 nav button{
-    width:20%;
-    height:55%;
-    margin:0 auto;
-    padding-left:20px;
+    width:20%; /* ancho de los botones */
+    height:50%; /* alto de los botones */
+    
 }
-#oculto{
-    background-color: antiquewhite;
-    border:none;
+#oculto{ 
+	/*oculta un boton para dejar espacio entre el inicio y el botn de catastrofes */
+    background-color: antiquewhite;  /*lo dejo del mismo color que el fondo para que no se vea */
+    border:0;
 }
 main{
-    width:85vw;
-    height:80vh;
+    float:left; 
+    width:90vw; </*que coja el 90% del ancho de la ventana*/
+    height: 85vh;
+    margin-top:10px; /*dejar margen arriba */
+    margin-left:70px;
     background-color: antiquewhite;
-    margin:0 auto;
-    margin-top:20px;
+    border-radius:30px;
+}
+#index{
+    float:left;
+    width:60vw;
+    height: 82vh;
+    margin-top:10px;
+    margin-left:70px;
+    background-color: antiquewhite;
     border-radius:30px;
 }
 main h3{
-    text-align:center;
-    padding-top:30px;
+    padding-left: 20px;
+}
+main section{
+    font-weight:bolder; /*para poner negrita en los titulos */
+    font-size:25px;
+    padding-top:10px;
+    padding-left:20px;
+}
+main article{
+    font-size:16px;
+    padding-left:20px;
+    text-align:justify; /*justificar el texto */
+    padding-right:20px;
+}
+aside{
+    float:right;
+    width:28vw;
+    height:82vh;
+    margin-top:10px;
+    margin-right:65px;
+    background-color: antiquewhite;
+    border-radius:30px;
+}
+aside img{
+    height:30%;
+    padding-top: 50px;
+    padding-left:30px;
+}
+aside figcaption{
+    text-align: center; /*centrar el texto justo debajo de las imagenes */
+}
+#desastres{
+    font-weight:bolder;
+    font-style: italic;
 }
 #lista{
     width:80%;
@@ -47,12 +92,22 @@ main table th{
     border:2px solid black;
     padding:10px;
 }
+main table th:nth-of-type(odd){ 
+	/*los pares de un color*/
+    background-color:black;
+    color:white;
+}
+main table th:nth-of-type(even){ 
+	/*los impares de otro color */
+    background-color: white;
+    color:black;
+}
 main table td{
     border:2px solid black;
     padding:10px;
 }
 form{
-    width:80%;
+    width:90vw;
     height:35%;
     margin:0 auto;
     text-align:center;
