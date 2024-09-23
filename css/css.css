@@ -1,35 +1,30 @@
 body{
     background-color: rgb(230, 219, 205);
-    margin:0 auto;
+    margin:0 auto; <!-- para centrar la pagina en cualuier navegador y resolucion -->
 }
 nav {
     background-color: antiquewhite;
-    width:80vw;
-    height:10vh;
+    width:80vw; <!-- se adapta al ancho de la ventana -->
+    height:10vh; <!-- se adapta al alto de la ventana -->
     margin:0 auto;
-    padding-top:20px;
+    padding-top:20px; <!-- deja espacio encima de los botones -->
     padding-left:10%;
-    border-radius:30px;
+    border-radius:30px; <!-- redondea los bordes del nav -->
 }
 nav button{
-    width:20%;
-    height:50%;
+    width:20%; <!-- ancho de los botones -->
+    height:50%; <!-- alto de los botones -->
     
 }
-#oculto{
-    background-color: antiquewhite;
+#oculto{ <!-- oculta un boton para dejar espacio entre el inicio y el botn de catastrofes -->
+    background-color: antiquewhite;  <!-- lo dejo del mismo color que el fondo para que no se vea -->
     border:0;
 }
-#logo{
-    height:60px;
-    width:60px;
-    background-image: url("/img/mundo.png");
-}
 main{
-    float:left;
-    width:90vw;
+    float:left; 
+    width:90vw; <!-- que coja el 90% del ancho de la ventana -->
     height: 85vh;
-    margin-top:10px;
+    margin-top:10px; <!-- dejar margen arriba -->
     margin-left:70px;
     background-color: antiquewhite;
     border-radius:30px;
@@ -47,7 +42,7 @@ main h3{
     padding-left: 20px;
 }
 main section{
-    font-weight:bolder;
+    font-weight:bolder; <!-- para poner negrita en los titulos -->
     font-size:25px;
     padding-top:10px;
     padding-left:20px;
@@ -55,7 +50,7 @@ main section{
 main article{
     font-size:16px;
     padding-left:20px;
-    text-align:justify;
+    text-align:justify; <!-- justificar el texto -->
     padding-right:20px;
 }
 aside{
@@ -73,10 +68,11 @@ aside img{
     padding-left:30px;
 }
 aside figcaption{
-    text-align: center;
+    text-align: center; <!-- centrar el texto justo debajo de las imagenes -->
 }
 #desastres{
     font-weight:bolder;
+    font-style: italic;
 }
 #lista{
     width:80%;
@@ -95,11 +91,11 @@ main table th{
     border:2px solid black;
     padding:10px;
 }
-main table th:nth-of-type(odd){
+main table th:nth-of-type(odd){ <!-- los pares de un color -->
     background-color:black;
     color:white;
 }
-main table th:nth-of-type(even){
+main table th:nth-of-type(even){ <!-- los impares de otro color -->
     background-color: white;
     color:black;
 }
