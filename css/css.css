@@ -25,7 +25,7 @@ main{
     width:90vw; </*que coja el 90% del ancho de la ventana*/
     height: 85vh;
     margin-top:10px; /*dejar margen arriba */
-    margin-left:70px;
+    margin-left:90px;
     background-color: antiquewhite;
     border-radius:30px;
 }
@@ -58,7 +58,7 @@ aside{
     width:28vw;
     height:82vh;
     margin-top:10px;
-    margin-right:65px;
+    margin-right:75px;
     background-color: antiquewhite;
     border-radius:30px;
 }
