@@ -1,30 +1,29 @@
 body{
     background-color: rgb(230, 219, 205);
-    margin:0 auto; <!-- para centrar la pagina en cualuier navegador y resolucion -->
+    margin:0 auto; /* para centrar la pagina en cualquier navegador y resolución */
 }
 nav {
     background-color: antiquewhite;
-    width:80vw; <!-- se adapta al ancho de la ventana -->
-    height:10vh; <!-- se adapta al alto de la ventana -->
+    width:80vw; /* se adapta al ancho de la ventana */
+    height:10vh; /* se adapta al alto de la ventana */
     margin:0 auto;
-    padding-top:20px; <!-- deja espacio encima de los botones -->
+    padding-top:20px; /* deja espacio encima de los botones */
     padding-left:10%;
-    border-radius:30px; <!-- redondea los bordes del nav -->
+    border-radius:30px; /* redondea los bordes del nav */
 }
 nav button{
-    width:20%; <!-- ancho de los botones -->
-    height:50%; <!-- alto de los botones -->
-    
+    width:20%; /* ancho de los botones */
+    height:50%; /* alto de los botones */
 }
-#oculto{ <!-- oculta un boton para dejar espacio entre el inicio y el botn de catastrofes -->
-    background-color: antiquewhite;  <!-- lo dejo del mismo color que el fondo para que no se vea -->
+#oculto{ /* oculta un boton para dejar espacio entre el inicio y el boton de catastrofes */
+    background-color: antiquewhite;  /* lo dejo del mismo color que el fondo para que no se vea */
     border:0;
 }
 main{
     float:left; 
-    width:90vw; <!-- que coja el 90% del ancho de la ventana -->
+    width:90vw; /* que coja el 90% del ancho de la ventana */
     height: 85vh;
-    margin-top:10px; <!-- dejar margen arriba -->
+    margin-top:10px; /* dejar margen arriba */
     margin-left:70px;
     background-color: antiquewhite;
     border-radius:30px;
@@ -42,7 +41,7 @@ main h3{
     padding-left: 20px;
 }
 main section{
-    font-weight:bolder; <!-- para poner negrita en los titulos -->
+    font-weight:bolder; /* para poner negrita en los titulos */
     font-size:25px;
     padding-top:10px;
     padding-left:20px;
@@ -50,7 +49,7 @@ main section{
 main article{
     font-size:16px;
     padding-left:20px;
-    text-align:justify; <!-- justificar el texto -->
+    text-align:justify; /* justificar el texto */
     padding-right:20px;
 }
 aside{
@@ -68,7 +67,7 @@ aside img{
     padding-left:30px;
 }
 aside figcaption{
-    text-align: center; <!-- centrar el texto justo debajo de las imagenes -->
+    text-align: center; /* centrar el texto justo debajo de las imagenes */
 }
 #desastres{
     font-weight:bolder;
@@ -91,11 +90,11 @@ main table th{
     border:2px solid black;
     padding:10px;
 }
-main table th:nth-of-type(odd){ <!-- los pares de un color -->
+main table th:nth-of-type(odd){ /* los pares de un color */
     background-color:black;
     color:white;
 }
-main table th:nth-of-type(even){ <!-- los impares de otro color -->
+main table th:nth-of-type(even){ /* los impares de otro color */
     background-color: white;
     color:black;
 }
