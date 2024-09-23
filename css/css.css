@@ -24,6 +24,7 @@ nav button{
 main{
     width:90vw; </*que coja el 90% del ancho de la ventana*/
     height: 85vh;
+    margin:0 auto;
     margin-top:10px; /*dejar margen arriba */
     margin-left:90px;
     background-color: antiquewhite;
